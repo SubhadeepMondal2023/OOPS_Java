@@ -3,7 +3,7 @@
 package q26;
 
 public class DivisibleSum extends Thread{
-    private boolean isDivisible, flag;
+    private boolean isDivisible, flag=false;
     private int range, divisor;
     public long sum;
     
